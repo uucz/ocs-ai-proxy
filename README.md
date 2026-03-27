@@ -19,7 +19,7 @@ OCS 的 AnswererWrapper 通过 GET 请求查询题库，但 OpenAI Chat Completi
 | `API_KEY` | 你的 API Key | ✅ 必须加密 |
 | `API_BASE` | API 基础地址，默认 `https://api.openai.com` | 否 |
 | `MODEL` | 模型名称，默认 `gpt-4o-mini` | 否 |
-| `SYSTEM_PROMPT` | 系统提示词，默认见下方 | 否 |
+| `SYSTEM_PROMPT` | 系统提示词，默认 `你是一个答题助手，直接给出答案，不要解释` | 否 |
 
 ### 方式二：Wrangler CLI
 
