@@ -48,6 +48,8 @@ wrangler deploy
 
 将 `你的worker名` 替换为实际的 Worker 域名。
 
+> **中国用户注意：** `*.workers.dev` 域名在中国境内无法访问，请在 Cloudflare Dashboard 为 Worker 绑定自定义域名后使用。
+
 ## 支持的 API
 
 任何兼容 OpenAI Chat Completions 格式的服务均可使用，只需修改 `API_BASE` 变量：
