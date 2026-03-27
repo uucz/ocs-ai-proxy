@@ -1,0 +1,12 @@
+name = "ocs-ai-proxy"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (non-secret)
+# Set API_KEY as an encrypted secret via dashboard or:
+#   wrangler secret put API_KEY
+
+[vars]
+API_BASE = "https://api.openai.com"
+MODEL = "gpt-4o-mini"
+SYSTEM_PROMPT = "你是一个答题助手，直接给出答案，不要解释"
